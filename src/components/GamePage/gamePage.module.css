@@ -1,0 +1,114 @@
+.game {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    font-size: 1.8rem;
+}
+.gameSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.selection {
+
+}
+
+.words {
+    margin-top: 2rem;
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    line-height: 2.5rem;
+
+}
+
+.words li {
+    color: #a33;
+    display: block;
+    font-size: 3rem;
+    text-decoration: none;
+    position: relative;
+    animation: nudge 5s ease-in-out infinite alternate, blink 2s ease infinite alternate;
+    padding: 1rem 2rem;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+
+.words li:nth-child(2n+1) {
+    color: cornflowerblue;
+    font-size: 2.5rem;
+    animation: nudge 5s ease-in-out infinite reverse, blink 2s ease infinite reverse;
+    animation-delay: 1s;
+
+}
+
+.words li:nth-child(3n) {
+    color: tomato;
+    font-size: 2rem;
+    padding: 2rem 3rem;
+    animation: nudge 5s ease-in-out infinite normal, blink 2s ease infinite alternate;
+    animation-delay: 0.5s;
+
+}
+
+.words li:hover {
+    animation: none;
+    font-size: 3.2rem;
+
+}
+
+@keyframes nudge {
+
+    from {
+        transform: rotate(0deg) translateX(1rem) rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) translateX(1rem) rotate(-360deg);
+    }
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0.2;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.5;
+    }
+}
+
+.game button {
+    font-size: 1.5rem;
+    color: black;
+    border: 2px solid black;
+    background: bisque;
+    border-radius: 10%;
+    padding: 0.5rem;
+    cursor: pointer;
+    margin: 5rem 0.5rem 0;
+
+}
+
+.game button:hover {
+    color: white;
+    text-shadow: 0 0 2px black;
+    background-color: coral;
+
+}

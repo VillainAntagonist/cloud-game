@@ -1,0 +1,38 @@
+.resultPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4.75rem;
+    font-size: 1.8rem;
+}
+.resultPage div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ .resultBox {
+    border: 0.25rem solid black;
+    margin-top: 0;
+    padding: 2rem;
+     border-radius: 20%;
+}
+.resultPage button {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    color: black;
+    border: 2px solid black;
+    background: bisque;
+    border-radius: 10%;
+    padding: 0.5rem;
+    cursor: pointer;
+
+}
+
+.resultPage button:hover {
+    color: white;
+    text-shadow: 0 0 2px black;
+    background-color: coral;
+
+}

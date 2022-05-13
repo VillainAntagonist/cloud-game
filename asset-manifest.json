@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Cloud-Game/static/css/main.7d107087.css",
+    "main.js": "/Cloud-Game/static/js/main.cb10437c.js",
+    "index.html": "/Cloud-Game/index.html",
+    "main.7d107087.css.map": "/Cloud-Game/static/css/main.7d107087.css.map",
+    "main.cb10437c.js.map": "/Cloud-Game/static/js/main.cb10437c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d107087.css",
+    "static/js/main.cb10437c.js"
+  ]
+}

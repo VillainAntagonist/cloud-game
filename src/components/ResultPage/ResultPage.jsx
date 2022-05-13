@@ -5,6 +5,7 @@ import cl from './ResultPage.module.css'
 const ResultPage = ({result, nickName, ...props}) => {
     const handleClick = () => {
         window.location = '/cloud-game/#/play'
+        window.location.reload()
     }
     return (
         <section className={cl.resultPage}>

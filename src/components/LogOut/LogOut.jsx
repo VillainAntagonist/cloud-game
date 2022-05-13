@@ -5,6 +5,7 @@ const LogOut = () => {
     const  handelLogOut =()=>{
         localStorage.removeItem('nickname');
         window.location = '/cloud-game/#/login';
+        window.location.reload()
     }
 
     return (

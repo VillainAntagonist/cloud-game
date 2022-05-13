@@ -4,7 +4,7 @@ import cl from './ResultPage.module.css'
 
 const ResultPage = ({result, nickName, ...props}) => {
     const handleClick = () => {
-        window.location = '/play'
+        window.location = '/cloud-game/#/play'
     }
     return (
         <section className={cl.resultPage}>

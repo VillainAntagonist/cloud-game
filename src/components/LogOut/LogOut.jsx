@@ -4,12 +4,12 @@ const LogOut = () => {
 
     const  handelLogOut =()=>{
         localStorage.removeItem('nickname');
-        window.location = '/login';
+        window.location = '/cloud-game/#/login';
     }
 
     return (
         <button className={cl.logOut}
-                onClick={handelLogOut}
+                onSubmit={handelLogOut}
         >
             Log Out
         </button>

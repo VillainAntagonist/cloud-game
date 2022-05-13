@@ -1,7 +1,7 @@
 {
   "name": "cloud-game",
   "version": "1.0.0",
-  "homepage": "https://villainantagonist.github.io/Cloud-Game/",
+  "homepage": "https://villainantagonist.github.io/cloud-game/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",

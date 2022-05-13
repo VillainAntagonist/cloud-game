@@ -9,7 +9,7 @@ const LogOut = () => {
 
     return (
         <button className={cl.logOut}
-                onSubmit={handelLogOut}
+                onClick={handelLogOut}
         >
             Log Out
         </button>

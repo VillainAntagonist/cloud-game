@@ -8,5 +8,7 @@
 
 ### - Better decomposition;
 ### - Use Ref to remove event listener from selected words;
-### - Upgrade app to React-Router 6.
+### - Upgrade app to React-Router 6;
+### - Implement cross-device support;
+### - Improve design.
 

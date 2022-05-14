@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/cloud-game/static/css/main.7d107087.css",
-    "main.js": "/cloud-game/static/js/main.72160bd5.js",
+    "main.js": "/cloud-game/static/js/main.135346f3.js",
     "index.html": "/cloud-game/index.html",
     "main.7d107087.css.map": "/cloud-game/static/css/main.7d107087.css.map",
-    "main.72160bd5.js.map": "/cloud-game/static/js/main.72160bd5.js.map"
+    "main.135346f3.js.map": "/cloud-game/static/js/main.135346f3.js.map"
   },
   "entrypoints": [
     "static/css/main.7d107087.css",
-    "static/js/main.72160bd5.js"
+    "static/js/main.135346f3.js"
   ]
 }

@@ -47,6 +47,8 @@ function App() {
                     redirect='/play'
                 />
                 <Redirect from='/' exact to='/login'/>
+                <Redirect to='/play'/>
+
             </Switch>
         </div>
     );
